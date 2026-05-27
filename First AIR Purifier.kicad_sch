@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "08c08a39-65ea-48bd-a8aa-f7933860973b")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 113.03 80.01) (xy 135.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad936e6-62eb-4b9d-8b9d-d42bdc0d764e")
+	)
+	(wire
+		(pts
+			(xy 91.44 59.69) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab53336-98a0-40da-9660-5b774cc140ca")
+	)
+	(wire
+		(pts
+			(xy 113.03 59.69) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca256f2b-7d91-4760-b18d-17d7a53dada4")
+	)
+	(sheet
+		(at 27.94 133.35)
+		(size 66.04 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 158 238 255 1)
+		)
+		(uuid "02e71803-837c-4add-b429-154d705fb267")
+		(property "Sheetname" "motion mode unit"
+			(at 27.94 132.6384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motion mode unit.kicad_sch"
+			(at 27.94 170.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "First AIR Purifier"
+				(path "/08c08a39-65ea-48bd-a8aa-f7933860973b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 26.67)
+		(size 63.5 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 186 252 154 1)
+		)
+		(uuid "890f52e8-b09d-47df-b6f3-00d183ce529b")
+		(property "Sheetname" "Display Unit"
+			(at 27.94 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display unit.kicad_sch"
+			(at 27.94 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "diaplay data" input
+			(at 91.44 59.69 0)
+			(uuid "6136cc60-59e5-43dd-afee-4b2f31940368")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "First AIR Purifier"
+				(path "/08c08a39-65ea-48bd-a8aa-f7933860973b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 76.2)
+		(size 55.88 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1)
+		)
+		(uuid "c2e3a2bf-2352-4393-a448-602a3df1c4cc")
+		(property "Sheetname" "main Board"
+			(at 135.89 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main board.kicad_sch"
+			(at 135.89 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "display" output
+			(at 135.89 80.01 180)
+			(uuid "c5e09ddd-e8aa-415d-9614-a9e94c0149c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "First AIR Purifier"
+				(path "/08c08a39-65ea-48bd-a8aa-f7933860973b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 80.01)
+		(size 64.77 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 191 253 1)
+		)
+		(uuid "f6e5f5d6-5db3-4613-934c-6aa7e5429472")
+		(property "Sheetname" "AIR Quality Sensor unit"
+			(at 27.94 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "air quality sensor.kicad_sch"
+			(at 27.94 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "First AIR Purifier"
+				(path "/08c08a39-65ea-48bd-a8aa-f7933860973b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
