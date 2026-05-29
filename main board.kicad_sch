@@ -685,6 +685,165 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 143.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c72985-18f8-46a4-9a45-0d3eecc2fd4a")
+	)
+	(wire
+		(pts
+			(xy 134.62 39.37) (xy 138.43 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06437bfd-0d2e-4902-871a-9ffa9e7f7bdb")
 	)
 	(wire
 		(pts
@@ -696,6 +855,108 @@
 		)
 		(uuid "1ce5c1cb-00d9-4cea-8858-a5b8420bc244")
 	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9707a5-95e2-4066-8bf3-597561a6ee48")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a8155d-717a-43dd-abbf-97bcb3c735f1")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c2e447-3064-4bec-93d7-403424ded4f8")
+	)
+	(global_label "Vcc"
+		(shape bidirectional)
+		(at 138.43 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08d70de7-91da-47dd-b70b-4f128828b2f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.7923 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "test"
+		(shape input)
+		(at 177.8 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b30b62a-5c88-4d9b-bcc8-668e2552d355")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.3533 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape bidirectional)
+		(at 143.51 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a61c47e-3441-40d2-be80-66ea88a6c5fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 44.7077 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "display"
 		(shape output)
 		(at 172.72 96.52 0)
@@ -706,6 +967,17 @@
 			(justify left)
 		)
 		(uuid "809cd6bd-ee72-4c5b-9797-c9809f37cb31")
+	)
+	(hierarchical_label "remote data"
+		(shape input)
+		(at 172.72 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d09c9934-2109-4e84-b753-a8eb7768ea5f")
 	)
 	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega168PA-A")
@@ -719,7 +991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c07d962c-ae97-4a4a-9d34-96cc30cf7480")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 145.6533 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -874,7 +1146,86 @@
 		(instances
 			(project "First AIR Purifier"
 				(path "/08c08a39-65ea-48bd-a8aa-f7933860973b/c2e3a2bf-2352-4393-a448-602a3df1c4cc"
-					(reference "U?")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 134.62 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e90ca738-26c8-4bf7-b06a-01bcc04b1004")
+		(property "Reference" "#PWR05"
+			(at 138.43 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 134.62 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "877fc3ff-b396-48af-aab7-4ac04525e8de")
+		)
+		(instances
+			(project "First AIR Purifier"
+				(path "/08c08a39-65ea-48bd-a8aa-f7933860973b/c2e3a2bf-2352-4393-a448-602a3df1c4cc"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

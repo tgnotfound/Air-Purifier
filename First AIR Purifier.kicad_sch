@@ -7,6 +7,36 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 91.44 57.15) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2640cfa6-5d3d-4af3-960c-9b332e1f6434")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2865e278-12da-46ae-b051-c6a492017057")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e09fc0b-eff8-416b-b1ff-25590108c0b3")
+	)
+	(wire
+		(pts
 			(xy 113.03 80.01) (xy 135.89 80.01)
 		)
 		(stroke
@@ -17,6 +47,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 29.21) (xy 91.44 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a95620-4de6-4340-ab59-98e0fcf76884")
+	)
+	(wire
+		(pts
 			(xy 91.44 59.69) (xy 113.03 59.69)
 		)
 		(stroke
@@ -24,6 +64,16 @@
 			(type default)
 		)
 		(uuid "aab53336-98a0-40da-9660-5b774cc140ca")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf74c27f-4f41-4d51-873f-16c68561f8fc")
 	)
 	(wire
 		(pts
@@ -130,6 +180,26 @@
 				(justify right)
 			)
 		)
+		(pin "Vcc" bidirectional
+			(at 91.44 29.21 0)
+			(uuid "6c9242a1-adaa-4ede-9898-c4306230a973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_recevier" output
+			(at 91.44 57.15 0)
+			(uuid "f29a1faf-bac8-4ca1-87e2-b2367d52fd96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "First AIR Purifier"
 				(path "/08c08a39-65ea-48bd-a8aa-f7933860973b"
@@ -179,6 +249,26 @@
 		(pin "display" output
 			(at 135.89 80.01 180)
 			(uuid "c5e09ddd-e8aa-415d-9614-a9e94c0149c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vcc" bidirectional
+			(at 153.67 76.2 90)
+			(uuid "439ca457-6f8b-4b1c-9871-ae094887cdd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "remote data" input
+			(at 135.89 83.82 180)
+			(uuid "2fa86922-0e1c-4aef-b6fb-a87651fe0eff")
 			(effects
 				(font
 					(size 1.27 1.27)
